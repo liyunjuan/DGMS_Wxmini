@@ -1,0 +1,17 @@
+<!--component/circle_data/circle_data.wxml-->
+<scroll-view scroll-y="{{contentScroll}}" upper-threshold="50" lower-threshold="50" class='circle_main'>
+    <view class='m-content' wx:for="{{cicle_data}}" wx:for-item="item" wx:key="id">
+      <view class='m-left'>
+        <image src='{{item.img}}'></image>
+      </view>
+      <view class='m-right'>
+        <view class='circle_title'>{{item.circle_title}}
+          <view class='circle_onlookers'>{{item.circle_onlookers}}</view>
+        </view>        
+        <view class='cirle_desc oneline'>{{item.description}}</view>
+      </view>
+      
+      <view class='cicle_icon'><image src='../../images/cir_right1.png'></image></view>
+    </view>
+  
+</scroll-view>

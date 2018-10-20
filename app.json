@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/circle/circle",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/goods/goods"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小幸运",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"#f18715",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/icon1.png",
+        "selectedIconPath": "icon/icon11.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "圈圈",
+        "iconPath": "icon/icon2.png",
+        "selectedIconPath": "icon/icon21.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "购好货",
+        "iconPath": "icon/icon3.png",
+        "selectedIconPath": "icon/icon31.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/icon4.png",
+        "selectedIconPath": "icon/icon41.png"
+      }
+    ]
+  }
+}

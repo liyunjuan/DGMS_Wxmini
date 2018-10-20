@@ -1,0 +1,6 @@
+<!--component/lay-out/lay-out.wxml-->
+<view class='content_wrap'>
+  <scroll-view class='content' scroll-y="{{contentScroll}}" bindscrolltoupper='onTop' bindscrolltolower='onBottom' unper-threshold='50' lower-threshold='50'>
+    <slot name="content"></slot>
+  </scroll-view>
+</view>

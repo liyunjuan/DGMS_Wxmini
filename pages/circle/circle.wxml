@@ -1,0 +1,21 @@
+<template name="banner">
+  <swiper class='banner' autoplay='true' indicator-dots='{{bannerAbc.indicatorDots}}' indicator-color='#ff34ff' interval='{{bannerAbc.interval}}' duration='{{bannerAbc.duration}}' circular="{{bannerAbc.circular}}">
+    <swiper-item wx:for="{{bannerImages}}" wx:for-item="item" wx:key="pics" class="circle_banner">
+      <image src='{{item}}'></image>
+    </swiper-item>
+  </swiper>
+</template>
+
+
+<lay-out>
+  <view slot='content'>
+   <template is="banner" data="{{bannerAbc:bannerAbc,bannerImages:bannerImages}}"></template>
+   
+   <circle_data></circle_data>
+
+ 
+  
+  
+  </view>
+</lay-out>
+

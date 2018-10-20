@@ -1,0 +1,13 @@
+/* component/lay-out/lay-out.wxss */
+.content_wrap{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.content{
+  flex: 1;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

@@ -1,0 +1,7 @@
+{
+  "disableScroll":true,
+  "usingComponents":{
+    "lay-out":"/component/lay-out/lay-out",
+    "circle_data":"/component/circle_data/circle_data"
+  }
+}
