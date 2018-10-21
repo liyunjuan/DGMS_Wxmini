@@ -12,10 +12,7 @@
    <template is="banner" data="{{bannerAbc:bannerAbc,bannerImages:bannerImages}}"></template>
    
    <circle_data></circle_data>
-
- 
-  
-  
+   
   </view>
 </lay-out>
 

@@ -1,0 +1,4 @@
+<!--component/search/search.wxml-->
+<view>
+  <input type='text' value='aaaa'>aaa</input>
+</view>

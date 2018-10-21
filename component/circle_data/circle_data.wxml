@@ -11,7 +11,9 @@
         <view class='cirle_desc oneline'>{{item.description}}</view>
       </view>
       
-      <view class='cicle_icon'><image src='../../images/cir_right1.png'></image></view>
+      <view class='cicle_icon'>
+        <image src='../../images/cir_right1.png'></image>
+      </view>
     </view>
   
 </scroll-view>

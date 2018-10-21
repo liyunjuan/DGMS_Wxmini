@@ -1,1 +1,6 @@
-{}
+{
+  "disableScroll":true,
+  "usingComponents":{
+    "search":"/component/search/search"
+  }
+}
